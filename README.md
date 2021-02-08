@@ -8,6 +8,63 @@ twilio plugins:install @adamchasetaylor/plugin-linux
 
 # Commands
 <!-- commands -->
+* [`twilio linux:environment`](#twilio-linuxenvironment)
+* [`twilio linux:headless:bash`](#twilio-linuxheadlessbash)
+* [`twilio linux:headless:dependencies`](#twilio-linuxheadlessdependencies)
+* [`twilio linux:version`](#twilio-linuxversion)
+
+## `twilio linux:environment`
+
+Displays Unredacted Environment Variables
+
+```
+USAGE
+  $ twilio linux:environment
+
+OPTIONS
+  -l=(debug|info|warn|error|none)  [default: info] Level of logging messages.
+  -o=(columns|json|tsv)            [default: columns] Format of command output.
+```
+
+## `twilio linux:headless:bash`
+
+.bashrc script for KEYCHAIN
+
+```
+USAGE
+  $ twilio linux:headless:bash
+
+OPTIONS
+  -l=(debug|info|warn|error|none)  [default: info] Level of logging messages.
+  -o=(columns|json|tsv)            [default: columns] Format of command output.
+```
+
+## `twilio linux:headless:dependencies`
+
+Command for Installing Libsecret
+
+```
+USAGE
+  $ twilio linux:headless:dependencies
+
+OPTIONS
+  -l=(debug|info|warn|error|none)  [default: info] Level of logging messages.
+  -o=(columns|json|tsv)            [default: columns] Format of command output.
+```
+
+## `twilio linux:version`
+
+Displays Operating System Information
+
+```
+USAGE
+  $ twilio linux:version
+
+OPTIONS
+  -l=(debug|info|warn|error|none)  [default: info] Level of logging messages.
+  -o=(columns|json|tsv)            [default: columns] Format of command output.
+```
+<!-- commandsstop -->
 * [`twilio linux`](#twilio-linux)
 
 ## `twilio linux`

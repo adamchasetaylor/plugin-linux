@@ -1,5 +1,6 @@
 {
   "name": "plugin-linux",
+  "version": "0.1.0",
   "description": "linux plugin for cli training",
   "author": "Adam Taylor, Gareth Paul Jones",
   "bugs": "https://github.com/twilio/twilio-cli/issues",

@@ -3,7 +3,7 @@ plugin-linux
 
 # Installation
 ```
-twilio plugins:install @adamchasetaylor/plugin-linux
+twilio plugins:install plugin-linux
 ```
 
 # Commands

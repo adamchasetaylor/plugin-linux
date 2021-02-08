@@ -1,6 +1,6 @@
 {
   "name": "plugin-linux",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "twilio cli linux plugin",
   "author": "Adam Taylor, Gareth Paul Jones",
   "bugs": "https://github.com/twilio/twilio-cli/issues",
@@ -24,7 +24,7 @@
     "prettier": "^2.2.1"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=14.15.4"
   },
   "files": [
     "/oclif.manifest.json",

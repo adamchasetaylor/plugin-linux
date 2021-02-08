@@ -83,4 +83,4 @@ $ printf "$(twilio linux:headless:bash)" >> ~/.bashrc; source ~/.bashrc
 
 1) Add Support for RHEL
 2) Add Support for Arch
-3) Add Support for ALPINE (inside Docker)# plugin-linux
+3) Add Support for ALPINE (inside Docker)

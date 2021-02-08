@@ -65,21 +65,6 @@ OPTIONS
   -o=(columns|json|tsv)            [default: columns] Format of command output.
 ```
 <!-- commandsstop -->
-* [`twilio linux`](#twilio-linux)
-
-## `twilio linux`
-
-```
-Commands for Linux Distros
-
-USAGE
-  $ twilio linux:COMMAND
-
-COMMANDS
-  linux:environment  Displays Unredacted Environment Variables
-  linux:headless     Commands for Headless Environments
-  linux:version      Displays Operating System Information
-```
 
 ## Setting Up Headless Ubuntu (using bash)
 

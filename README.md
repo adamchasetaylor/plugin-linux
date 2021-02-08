@@ -12,8 +12,6 @@ twilio plugins:install @adamchasetaylor/plugin-linux
 
 ## `twilio linux`
 
-Keep an eye on incoming alerts, messages, and calls. Polls every 1 second.
-
 ```
 Commands for Linux Distros
 

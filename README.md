@@ -68,10 +68,15 @@ OPTIONS
 
 ## Setting Up Headless Ubuntu (using bash)
 
-1) Install Keytar Dependencies
-$ twilio linux:headless:dependencies
+1) Ensure you have LTS Release of Node
+`sudo apt-get install curl`
+`curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -``
+`sudo apt-get install -y nodejs`
 
-1) Add the autocomplete env var to your bash profile and source it
+2) Install Keytar Dependencies
+`$ twilio linux:headless:dependencies`
+
+3) Add the autocomplete env var to your bash profile and source it
 $ printf "$(twilio linux:headless:bash)" >> ~/.bashrc; source ~/.bashrc
 
 ## TODO 

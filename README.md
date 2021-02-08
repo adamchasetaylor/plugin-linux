@@ -62,7 +62,7 @@ USAGE
 3) Install Keytar Dependencies
 `$ twilio linux:headless:dependencies`
 
-4) Add the autocomplete env var to your bash profile and source it
+4) Add the DBUS env var to your bash profile and source it
 `$ printf "$(twilio linux:headless:bash)" >> ~/.bashrc; source ~/.bashrc`
 
 ## TODO 

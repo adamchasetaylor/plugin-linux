@@ -72,7 +72,7 @@ OPTIONS
 `sudo apt-get install curl`
 
 2) Add NodeSource Repo to your APT Sources
-`curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -``
+`curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -`
 
 3) Install the LTS version of NodeJS
 `sudo apt-get install -y nodejs`

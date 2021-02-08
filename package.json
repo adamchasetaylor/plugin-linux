@@ -43,7 +43,7 @@
     ],
     "topics": {
       "linux": {
-        "description": "Commands for Linux Distro"
+        "description": "Commands for Linux Distros"
       },
       "linux:headless": {
         "description": "Commands for Headless Environments"
